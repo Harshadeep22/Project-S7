@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashboard">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/logo" />
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME ADMINISTRATOR"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+
+        <Button
+            android:id="@+id/btnadminworkers"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Workers"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnadminuser"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="User"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnbookings"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Bookings"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnadminhistory"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="History"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnadminlogout"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="logout"
+            android:textSize="25sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
